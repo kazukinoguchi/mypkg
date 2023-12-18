@@ -18,4 +18,3 @@ rclpy.init()
 node = Node("talker")
 talker = Talker(node)      #オブジェクトを作成（__init__が実行される。）
 rclpy.spin(node)            #実行（無限ループ）
-#push test
