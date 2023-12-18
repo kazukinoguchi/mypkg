@@ -1,4 +1,5 @@
 # mypkg
+このレポジトリは、Talkerで送信したコメントをListenerで受信し、表示するものです。
 ## 必要なソフトウェア
 * Python
 * ROS2
