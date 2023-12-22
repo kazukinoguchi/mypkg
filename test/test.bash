@@ -9,4 +9,4 @@ source $dir/.bashrc
 timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
-grep '0h 0m 8s'
+grep '0h 0m 10s'
