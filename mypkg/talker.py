@@ -1,19 +1,22 @@
+#!/usr/bin/python3
 # SPDX-FileCopyRightText: 2023 Kazuki Noguchi
 # SPDX-License-Identifire: BSD-3-Clause
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import Int16
 
 class Talker():
     def __init__(self, node):
-        self.pub = node.create_publisher(String, "Comments", 10)
-        node.create_timer(0.01, self.cb)
+        self.pub = node.create_publisher(Int16, "CountUp", 10)
+        self.n = 0
+        node.create_timer(1.0, self.cb)
 
     def cb(self):
-        msg = String()
-        msg.data = input('Comments here: ')
+        msg = Int16()
+        msg.data = self.n
         self.pub.publish(msg)
+        self.n += 1
 
 rclpy.init()
 node = Node("talker")
