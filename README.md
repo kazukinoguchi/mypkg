@@ -16,6 +16,10 @@ Ubuntu-20.04
 1. 各自のROS2ワークスペースに移動します。
 1. 以下のコマンドで、このパッケージをダウンロードします。  
 `git clone https://github.com/kazukinoguchi/mypkg`
+1. ROS2ワークスペース内で、以下のコマンドでビルドします。
+`colcon build`
+1. 以下のコマンドで設定を読み込みます。
+`source ~/.bashrc`
 
 ## 実行方法
 1. 各自のROS2ワークスペースに移動します。
