@@ -1,6 +1,6 @@
 # mypkg
 このレポジトリは、ROS2のパッケージであり、Talkerを起動してから経過した時間ををListenerで受信し、表示するものです。  
-**このレポジトリを使用するには、ROS2をインストールしていることが前提となっています。あらかじめ確認をお願いいたします。**
+**このレポジトリを使用するには、ROS2をインストールしている必要があります。あらかじめ確認をお願いいたします。**
 
 [![test](https://github.com/kazukinoguchi/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kazukinoguchi/mypkg/actions/workflows/test.yml)
 
