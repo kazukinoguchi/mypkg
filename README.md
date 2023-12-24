@@ -16,7 +16,7 @@ Ubuntu-20.04
 1. 以下のコマンドで、このパッケージをダウンロードします。  
 `git clone https://github.com/kazukinoguchi/mypkg`
 
-##実行方法
+## 実行方法
 1. 各自のROS2ワークスペースに移動します。
 1. コマンドを打ち込み実行します。
 * Talkerの実行コマンド
