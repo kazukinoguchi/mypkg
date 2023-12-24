@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+# SPDX-FileCopyRightText: 2023 Kazuki Noguchi
+# SPDX-License-Identifire: BSD-3-Clause
+
 import launch
 import launch.actions
 import launch.substitutions
