@@ -1,5 +1,6 @@
 # mypkg
 このレポジトリは、Talkerを起動してから経過した時間ををListenerで受信し、表示するものです。
+
 [![test](https://github.com/kazukinoguchi/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kazukinoguchi/mypkg/actions/workflows/test.yml)
 
 ## 必要なソフトウェア
