@@ -38,6 +38,16 @@ Talkerは起動しても何も表示されません。
 [INFO] [1703394983.567053465] [listener]: 0h 0m 3s
 ```
 * TalkerとListenerを同時に実行
+```
+[INFO] [launch]: All log files can be found below /home/usr/.ros/log/
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [number]
+[INFO] [listener-2]: process started with pid [number]
+[listener-2] [INFO] [1703395475.427969567] [listener]: 0h 0m 1s
+[listener-2] [INFO] [1703395476.423748621] [listener]: 0h 0m 2s
+[listener-2] [INFO] [1703395477.423724675] [listener]: 0h 0m 3s
+[listener-2] [INFO] [1703395478.423717814] [listener]: 0h 0m 4s
+```
 ## 著作権・ライセンス表示
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージは，Ryuichi Ueda由来のコード（© 2022 Ryuichi Ueda）を利用しています．
