@@ -32,7 +32,9 @@ Ubuntu-20.04
 * Talker  
 Talkerは起動しても何も表示されません。  
 * Listener  
-`[INFO] [1703394981.576107110] [listener]: 0h 0m 1s  [INFO] [1703394982.567102112] [listener]: 0h 0m 2s  [INFO] [1703394983.567053465] [listener]: 0h 0m 3s`
+`[INFO] [1703394981.576107110] [listener]: 0h 0m 1s  
+[INFO] [1703394982.567102112] [listener]: 0h 0m 2s  
+[INFO] [1703394983.567053465] [listener]: 0h 0m 3s`
 * TalkerとListenerを同時に実行
 ## 著作権・ライセンス表示
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
