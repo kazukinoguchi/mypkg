@@ -29,8 +29,10 @@ Ubuntu-20.04
 1. Ctrl + Cでプログラムを終了させます。
 
 ## 実行例
-* Talker
-* Listener
+* Talker  
+Talkerは起動しても何も表示されません。  
+* Listener  
+
 * TalkerとListenerを同時に実行
 ## 著作権・ライセンス表示
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
