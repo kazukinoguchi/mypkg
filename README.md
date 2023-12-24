@@ -26,7 +26,12 @@ Ubuntu-20.04
 `ros2 run mypkg listener`
 * TalkerとListenerを同時に実行するコマンド
 `ros2 launch mypkg talk_listen.launch.py`
+1. Ctrl + Cでプログラムを終了させます。
 
+## 実行例
+* Talker
+* Listener
+* TalkerとListenerを同時に実行
 ## 著作権・ライセンス表示
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージは，Ryuichi Ueda由来のコード（© 2022 Ryuichi Ueda）を利用しています．
