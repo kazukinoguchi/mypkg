@@ -20,12 +20,12 @@ Ubuntu-20.04
 ## 実行方法
 1. 各自のROS2ワークスペースに移動します。
 1. コマンドを打ち込み実行します。
-   * Talkerの実行コマンド
-   `ros2 run mypkg talker`
-   * Listenerの実行コマンド
-   `ros2 run mypkg listener`
-   * TalkerとListenerを同時に実行するコマンド
-   `ros2 launch mypkg talk_listen.launch.py`
+   * Talkerの実行コマンド  
+   `ros2 run mypkg talker`  
+   * Listenerの実行コマンド  
+   `ros2 run mypkg listener`  
+   * TalkerとListenerを同時に実行するコマンド  
+   `ros2 launch mypkg talk_listen.launch.py`  
 1. Ctrl + Cでプログラムを終了させます。
 
 ## 実行例
