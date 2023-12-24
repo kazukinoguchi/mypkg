@@ -1,5 +1,6 @@
 # mypkg
-このレポジトリは、Talkerを起動してから経過した時間ををListenerで受信し、表示するものです。
+このレポジトリは、ROS2のパッケージであり、Talkerを起動してから経過した時間ををListenerで受信し、表示するものです。  
+**このレポジトリを使用するには、ROS2をインストールしていることが前提となっています。あらかじめ確認をお願いいたします。**
 
 [![test](https://github.com/kazukinoguchi/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kazukinoguchi/mypkg/actions/workflows/test.yml)
 
@@ -12,7 +13,6 @@
 Ubuntu-20.04
 
 ## インストール方法
-**このレポジトリを使用するには、ROS2をインストールしていることが前提となっています。あらかじめ確認をお願いいたします。**
 1. 各自のROS2ワークスペースに移動します。
 1. 以下のコマンドで、このパッケージをダウンロードします。  
 `git clone https://github.com/kazukinoguchi/mypkg`
