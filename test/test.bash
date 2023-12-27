@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyRightText: 2023 Kazuki Noguchi
+# SPDX-License-Identifire: BSD-3-Clause
 
 dir=~
 [ "$1" != "" ] && dir="$1"   #引数があったら、そちらをホームに変える。
