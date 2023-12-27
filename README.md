@@ -8,7 +8,7 @@
 * Python
   * テスト済み: 3.7 ~ 3.10
 * ROS2
-  * Version: foxy
+  * version: foxy
 
 ## テスト環境
 Ubuntu-20.04
